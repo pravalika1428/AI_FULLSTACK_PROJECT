@@ -10,3 +10,7 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 print("Model loaded successfully)
 pip install sentence_transformers
 pip install chromadb
+code preprocessing.py
+with open("sample.txt", "r") as file:
+    text = file.read()
+print(text)

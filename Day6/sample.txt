@@ -1,0 +1,12 @@
+Artificial intelligence is a branch of computer science.
+Machine learning is a subset of artificial intelligence.
+Deep learing uses neural networks.
+Large language models can understand and generate human like text.
+RAG combines retrieval with language generation.
+code load.py
+from sentence_transformers import SentenceTransformer
+import chromadb
+model = SentenceTransformer("all-MiniLM-L6-v2")
+print("Model loaded successfully)
+pip install sentence_transformers
+pip install chromadb
